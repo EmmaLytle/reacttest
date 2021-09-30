@@ -20,7 +20,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
    
     - name: Build page
-      run: ./build.sh
+      run: chomd a+x ./build.sh 
+          ./build.sh
       
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
