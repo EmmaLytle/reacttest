@@ -1,15 +1,12 @@
+import React from 'react';
 import './App.css';
-import BudgetCalculator from './BudgetCalculator.js';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Budget Calculator.........</h1>
-      </header>
-      <BudgetCalculator />
+    <div className='todo-app'>
+      <TodoList />
     </div>
-
   );
 }
 
